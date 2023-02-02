@@ -1,10 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 import appleMarketImg from '../public/assets/appleMarketHomePg.png'
-import appleMarketItemImg from '../public/assets/appleMarketItemPg.png'
 import workoutImg from '../public/assets/workoutBuddy.png'
 import movieAppImg from '../public/assets/movieApp.png'
 const Projects = () => {
@@ -17,19 +14,15 @@ const Projects = () => {
                     <ProjectItem
                         title='Apple Market'
                         backgroundImg={appleMarketImg}
-                        projectUrl='/apple market' />
-                    <ProjectItem
-                        title='Apple Market Item Img'
-                        backgroundImg={appleMarketItemImg}
-                        projectUrl='/property' />
+                        projectUrl='/applemarket' />
                     <ProjectItem
                         title='Workout Buddy'
                         backgroundImg={workoutImg}
-                        projectUrl='/property' />
+                        projectUrl='/workout' />
                     <ProjectItem
                         title='Movie App'
                         backgroundImg={movieAppImg}
-                        projectUrl='/property' />
+                        projectUrl='/movie' />
                 </div>
             </div>
         </div>
