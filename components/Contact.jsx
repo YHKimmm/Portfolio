@@ -6,6 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import { AiFillStar } from 'react-icons/ai'
 import Link from 'next/link'
 
 const Contact = () => {
@@ -63,6 +64,7 @@ const Contact = () => {
                     name: name,
                     subject: subject,
                     message: message,
+                    phoneNumber: phoneNumber,
                 }),
                 headers: {
                     "Content-Type": "application/json",
@@ -132,14 +134,18 @@ const Contact = () => {
                             <form onSubmit={handleSubmit}>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Name</label>
+                                        <label className='uppercase text-sm py-2'>
+                                            <div className='flex items-center w-full'>
+                                                Name<span className='ml-1'><AiFillStar size={12} /></span>
+                                            </div>
+                                        </label>
                                         <input className='border-2 rounded-lg p-3 flex border-gray-300'
                                             type="text"
                                             value={name}
                                             onChange={(e) => setName(e.target.value)}
                                         />
+                                        {errors.name && <p className='text-red-500'>Please enter your name</p>}
                                     </div>
-                                    {errors.name && <p className='text-red-500'>Please enter your name</p>}
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2'>Phone Number</label>
                                         <input className='border-2 rounded-lg p-3 flex border-gray-300'
@@ -150,32 +156,44 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Email</label>
+                                    <label className='uppercase text-sm py-2'>
+                                        <div className='flex items-center w-full'>
+                                            Email<span className='ml-1'><AiFillStar size={12} /></span>
+                                        </div>
+                                    </label>
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300'
                                         type="email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                     />
+                                    {errors.email && <p className='text-red-500'>Please enter your email</p>}
                                 </div>
-                                {errors.email && <p className='text-red-500'>Please enter your email</p>}
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Subject</label>
+                                    <label className='uppercase text-sm py-2'>
+                                        <div className='flex items-center w-full'>
+                                            Subject<span className='ml-1'><AiFillStar size={12} /></span>
+                                        </div>
+                                    </label>
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300'
                                         type="text"
                                         value={subject}
                                         onChange={(e) => setSubject(e.target.value)}
                                     />
+                                    {errors.subject && <p className='text-red-500'>Please enter your subject</p>}
                                 </div>
-                                {errors.subject && <p className='text-red-500'>Please enter your subject</p>}
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Message</label>
+                                    <label className='uppercase text-sm py-2'>
+                                        <div className='flex items-center w-full'>
+                                            Message<span className='ml-1'><AiFillStar size={12} /></span>
+                                        </div>
+                                    </label>
                                     <textarea className='border-2 rounded-lg p-3 flex border-gray-300'
                                         type="text"
                                         value={message}
                                         onChange={(e) => setMessage(e.target.value)}
                                         rows={10} />
+                                    {errors.message && <p className='text-red-500'>Please enter your message</p>}
                                 </div>
-                                {errors.message && <p className='text-red-500'>Please enter your message</p>}
                                 <button className='w-full flex items-center justify-center p-4 text-gray-100 mt-4'>
                                     <span>{buttonText}</span>
                                     <svg width="24" height="24" viewBox="0 0 24 24" className="text-cyan-500 ml-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
