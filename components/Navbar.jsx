@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import img from '../public/assets/navLogo.png'
@@ -9,12 +9,16 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
 
 const Navbar = () => {
+
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
     const [navBg, setNavBg] = useState("#ecf0f3")
     const [navColor, setNavColor] = useState("#1f2937")
 
     const router = useRouter()
+
+    const ref = useRef(null);
+    useOnClickOutside(ref, () => setNav(false));
 
     useEffect(() => {
         if (
@@ -77,7 +81,7 @@ const Navbar = () => {
             </div>
 
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-                <div className=
+                <div ref={ref} onClick={() => { setNav(false) }} className=
                     {nav ?
                         'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
                         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
@@ -135,6 +139,27 @@ const Navbar = () => {
     );
 };
 
+// Hook
+function useOnClickOutside(ref, handler) {
+    useEffect(
+        () => {
+            const listener = (event) => {
+                // Do nothing if clicking ref's element or descendent elements
+                if (!ref.current || ref.current.contains(event.target)) {
+                    return;
+                }
+                handler(event);
+            };
+            document.addEventListener("mousedown", listener);
+            document.addEventListener("touchstart", listener);
+            return () => {
+                document.removeEventListener("mousedown", listener);
+                document.removeEventListener("touchstart", listener);
+            };
+        },
+        [ref, handler]
+    );
+}
 
 
 export default Navbar;
