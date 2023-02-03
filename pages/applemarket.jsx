@@ -20,15 +20,18 @@ const appleMarket = () => {
                 <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>This app was built using React JS and is hosted on Firebase. Users
-                        are able to search properties based on an Address, City, or ZIP code
-                        to retrieve a list of active properties currently for sale. You will
-                        be able to view property information as well as the specific
-                        location of the property integrated with the Google Maps API. User
-                        authentication is available so you can signup and signin to your
-                        account with an email address in order to save your favorite
-                        properties. This is made possible with Zillow API
-                    </p>
+                    <p className='pt-4'>An online marketplace where users can post and browse used items for sale.
+                        Features include item listing with image, price, and seller information, user registration and authentication using Firebase, email verification.</p>
+                    <p className='pt-4'>Once logged in, users are able to post comments on items, view their profile page, and edit their profile image.
+                        The website also provides sorting capabilities, enabling users to sort items based on their price, newest, and popularity.
+                        This project showcases my expertise in web development, specifically in the areas of user authentication and authorization, database management, and front-end development.</p>
+                    <h3 className='pt-4 text-lg'>Why I built it</h3>
+                    <p className='pt-4'>I built this project to showcase my skills in web development, specifically in the areas of user authentication and authorization, database management, and front-end development.
+                        I also wanted to create a website that would be useful to people in my community, and I thought that an online marketplace would be a great idea in terms of selling their used items at reasonable price, share items, and share thoughts with posting comments</p>
+                    <h3 className='pt-4 text-lg'>What I learned</h3>
+                    <p className='pt-4'>I learned how to use Firebase to implement user authentication and authorization, and I learned how to use MongoDB to manage a database.
+                        I also learned how to use React JS and fetching api from backend to create a responsive and interactive front-end.</p>
+
                     <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                     <button className='px-8 py-2 mt-4'>Code</button>
                 </div>
@@ -37,22 +40,22 @@ const appleMarket = () => {
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> React</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> React</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Node</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Node</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Javascript</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Redux</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Firebase</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> CSS Module</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Mongo DB</p>
                             </div>
                         </div>
                     </div>

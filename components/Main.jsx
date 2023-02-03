@@ -3,6 +3,7 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Main = () => {
     return (
@@ -18,22 +19,27 @@ const Main = () => {
                     </h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                         I'm a full-stack web developer based in the Canada. I specialize in building websites and web applications.
-                        Just like you, I'm passionate about building things that live on the internet. I enjoy creating beautifully
-                        designed, intuitive and functional websites.
+                        I have a passion for constructing websites and web applications. I take pride in designing aesthetically pleasing, user-friendly, and highly functional websites that leave a lasting impression.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaGithub />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <Link href='https://www.linkedin.com/in/yeongheonkim/'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaLinkedinIn />
+                            </div>
+                        </Link>
+                        <Link href='https://github.com/YHKimmm'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaGithub />
+                            </div>
+                        </Link>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = 'mailto:dudgjs1318@gmail.com'}>
                             <AiOutlineMail />
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill />
-                        </div>
+                        <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <BsFillPersonLinesFill />
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

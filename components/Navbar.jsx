@@ -118,18 +118,24 @@ const Navbar = () => {
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn size={20} />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub size={20} />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <Link href='https://www.linkedin.com/in/yeongheonkim/'>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <FaLinkedinIn size={20} />
+                                    </div>
+                                </Link>
+                                <Link href='https://github.com/YHKimmm'>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <FaGithub size={20} />
+                                    </div>
+                                </Link>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300' onClick={() => window.location.href = 'mailto:dudgjs1318@gmail.com'} >
                                     <AiOutlineMail size={20} />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill size={20} />
-                                </div>
+                                <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2'>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <BsFillPersonLinesFill size={20} />
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -102,12 +102,12 @@ const Contact = () => {
                             <div>
                                 <h2 className='py-2'>Brayden</h2>
                                 <p>Full-Stack Developer</p>
-                                <p className='py-4'>I am available for intern or full-time junior positions. Contact me and let's talk</p>
+                                <p className='py-4'>I am available for internship or full-time junior positions. Contact me and let's talk</p>
                             </div>
                             <div>
                                 <p className='pt-8 uppercase'>Connect With Me</p>
                                 <div className='flex items-center justify-between py-4'>
-                                    <Link href='https://www.linkedin.com/feed/'>
+                                    <Link href='https://www.linkedin.com/in/yeongheonkim/'>
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaLinkedinIn />
                                         </div>
@@ -120,9 +120,11 @@ const Contact = () => {
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = 'mailto:dudgjs1318@gmail.com'}>
                                         <AiOutlineMail />
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <BsFillPersonLinesFill />
-                                    </div>
+                                    <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2'>
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <BsFillPersonLinesFill />
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +204,7 @@ const Contact = () => {
                                 </button>
                             </form>
                         </div>
-                        {showSuccessMessage && <p className='text-green-500 p-4 flex justify-center w-full'>Thanks for contacting me!</p>}
+                        {showSuccessMessage && <p className='text-green-500 p-4 flex justify-center w-full'>Thanks for contacting me! I will be get in touch ASAP!</p>}
                         {showFailureMessage && <p className='text-red-500 flex justify-center w-full p-4'>Something went wrong, please try again!</p>}
                     </div>
                 </div>

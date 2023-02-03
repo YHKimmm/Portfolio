@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React from 'react'
 import Image from 'next/image'
 import movieImg from '../public/assets/movieApp.png'
@@ -21,15 +23,21 @@ const movie = () => {
                 <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>This app was built using React JS and is hosted on Firebase. Users
-                        are able to search properties based on an Address, City, or ZIP code
-                        to retrieve a list of active properties currently for sale. You will
-                        be able to view property information as well as the specific
-                        location of the property integrated with the Google Maps API. User
-                        authentication is available so you can signup and signin to your
-                        account with an email address in order to save your favorite
-                        properties. This is made possible with Zillow API
+                    <p className='mt-4'>
+                        This Movie App is  a dynamic and user-friendly platform for movie lovers. The app uses the TMDB movie API to provide an extensive database of movies, sorted by popularity, top rated, upcoming and now playing. Users have the ability to search for movies based on title, and view detailed information about each movie, including the overview, release date, rating, and genre.
                     </p>
+                    <p className='mt-4'>
+                        One of the standout features of the React Movie App is the ability to add movies to a personal "favourites" or "watch later" list. These selections are stored in local storage, ensuring that users can access their favourite or watch later movies even after closing the web app. The addition and removal of movies to these lists is managed using Redux, providing a seamless user experience
+                    </p>
+                    <h3 className='pt-4 text-lg'>Why I built it</h3>
+                    <p className='mt-4'>
+                        I built this app to practice my React skills, and to learn how to use Redux. I also wanted to create a project that would be useful to me, and that I would use on a regular basis. I love watching movies, and I often find myself looking for new movies to watch. I wanted to create a platform that would allow me to easily search for movies, and to keep track of movies that I want to watch.
+                    </p>
+                    <h3 className='pt-4 text-lg'>Challenges</h3>
+                    <p className='mt-4'>
+                        One of the biggest challenges I faced while building this app was learning how to use Redux. I had never used Redux before, so I had to learn how to use Redux with React Hooks and with local storage, which was a new concept for me.
+                    </p>
+
                     <button className='px-8 py-2 mt-4 mr-8'>
                         <Link href='https://yhkimmm.github.io/movie-app-react/'>Demo</Link>
                     </button>
@@ -42,22 +50,19 @@ const movie = () => {
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> React</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' /> React</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Node</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' /> Redux</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Javascript</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' /> Local Storage</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' /> Open API</p>
                             </div>
                             <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
-                            </div>
-                            <div>
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                                <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' /> CSS Module</p>
                             </div>
                         </div>
                     </div>

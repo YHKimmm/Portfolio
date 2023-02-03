@@ -16,19 +16,25 @@ const Projects = () => {
                         title='Apple Market'
                         backgroundImg={appleMarketImg}
                         projectUrl='/applemarket'
-                        stacks='React, Node.js, Express, MongoDB'
+                        stacks='React.js, Node.js, Express, MongoDB'
+                        duration='2 weeks'
+                        deployment='Heroku'
                     />
                     <ProjectItem
                         title='Workout Buddy'
                         backgroundImg={workoutImg}
                         projectUrl='/workout'
-                        stacks='React, Node.js, Express, MongoDB'
+                        stacks='React.js, Node.js, Express, MongoDB'
+                        duration='1.5 weeks'
+                        deployment='AWS'
                     />
                     <ProjectItem
                         title='Movie App'
                         backgroundImg={movieAppImg}
                         projectUrl='/movie'
-                        stacks='React'
+                        stacks='React.js'
+                        duration='1 week'
+                        deployment='Github Pages'
                     />
                 </div>
             </div>

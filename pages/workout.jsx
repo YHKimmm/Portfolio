@@ -20,14 +20,19 @@ const workout = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API
+          <p className='mt-4'>
+            This app is a CRUD-based application designed to help users plan, track and manage their workout sessions. With this app, users have the ability to create customized workout plans, including the load, reps, and title of each exercise. The intuitive interface makes it easy for users to add, edit, and delete workout information as needed.
+          </p>
+          <p className='mt-4'>
+            In addition to the workout management features, Workout Buddy also includes user authentication and security features. Users can register, login, and logout with ease, and all authentication is handled securely using JWT and a backend node.js middleware. This ensures that user data is protected and only accessible to the user who created it.
+          </p>
+          <h3 className='pt-4 text-lg'>Why I built it</h3>
+          <p className='mt-4'>
+            I built this app to help me manage my own workout sessions. I wanted to create a simple, easy-to-use app that would allow me to create and manage my workout sessions. I also wanted to create a user-friendly app that would allow me to share my workout plans with others.
+          </p>
+          <h3 className='pt-4 text-lg'>Challenges</h3>
+          <p className='mt-4'>
+            The biggest challenge I faced while building this app was the authentication and security features. I had to learn how to implement JWT and a backend node.js middleware to ensure that user data was protected and only accessible to the user who created it.
           </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <button className='px-8 py-2 mt-4'>Code</button>
@@ -37,22 +42,22 @@ const workout = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <div>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> React</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1 ' /> React</p>
               </div>
               <div>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Node</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Node</p>
               </div>
               <div>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Javascript</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Mongo DB</p>
               </div>
               <div>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> Context API</p>
               </div>
               <div>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> JWT</p>
               </div>
               <div>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> CSS Module</p>
               </div>
             </div>
           </div>
