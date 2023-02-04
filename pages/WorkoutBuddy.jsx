@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import workoutBuddyImg from '../public/assets/workoutBuddy.png'
+import workoutBuddyImg from '../public/assets/workoutbuddy/workoutBuddy.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const workout = () => {
+const WorkoutBuddy = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -18,7 +18,6 @@ const workout = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
           <h2>Overview</h2>
           <p className='mt-4'>
             This app is a CRUD-based application designed to help users plan, track and manage their workout sessions. With this app, users have the ability to create customized workout plans, including the load, reps, and title of each exercise. The intuitive interface makes it easy for users to add, edit, and delete workout information as needed.
@@ -40,7 +39,7 @@ const workout = () => {
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
+            <div className='grid grid-cols-3 md:grid-cols-1 text-sm'>
               <div>
                 <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1 ' /> React</p>
               </div>
@@ -70,4 +69,4 @@ const workout = () => {
   )
 }
 
-export default workout
+export default WorkoutBuddy

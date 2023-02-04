@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import appleMarketImg from '../public/assets/appleMarketHomePg.png'
+import appleMarketImg from '../public/assets/applemarket/appleMarketHomePg.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const appleMarket = () => {
+const AppleMarket = () => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -18,7 +18,6 @@ const appleMarket = () => {
 
             <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                 <div className='col-span-4'>
-                    <p>Project</p>
                     <h2>Overview</h2>
                     <p className='pt-4'>An online marketplace where users can post and browse used items for sale.
                         Features include item listing with image, price, and seller information, user registration and authentication using Firebase, email verification.</p>
@@ -68,4 +67,4 @@ const appleMarket = () => {
     )
 }
 
-export default appleMarket
+export default AppleMarket

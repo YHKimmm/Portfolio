@@ -2,12 +2,12 @@
 
 import React from 'react'
 import Image from 'next/image'
-import movieImg from '../public/assets/movieApp.png'
+import movieImg from '../public/assets/movieapp/movieApp.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
 
-const movie = () => {
+const MovieApp = () => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -21,7 +21,6 @@ const movie = () => {
 
             <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                 <div className='col-span-4'>
-                    <p>Project</p>
                     <h2>Overview</h2>
                     <p className='mt-4'>
                         This Movie App is  a dynamic and user-friendly platform for movie lovers. The app uses the TMDB movie API to provide an extensive database of movies, sorted by popularity, top rated, upcoming and now playing. Users have the ability to search for movies based on title, and view detailed information about each movie, including the overview, release date, rating, and genre.
@@ -39,16 +38,16 @@ const movie = () => {
                     </p>
 
                     <button className='px-8 py-2 mt-4 mr-8'>
-                        <Link href='https://yhkimmm.github.io/movie-app-react/'>Demo</Link>
+                        <Link href='https://yhkimmm.github.io/movie-app-react/' target='_blank'>Demo</Link>
                     </button>
                     <button className='px-8 py-2 mt-4'>
-                        <Link href='https://github.com/YHKimmm/movie-app-react'>Code</Link>
+                        <Link href='https://github.com/YHKimmm/movie-app-react' target='_blank'>Code</Link>
                     </button>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='p-2'>
                         <p className='text-center font-bold pb-2'>Technologies</p>
-                        <div className='grid grid-cols-3 md:grid-cols-1'>
+                        <div className='grid grid-cols-3 md:grid-cols-1 text-sm'>
                             <div>
                                 <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' /> React</p>
                             </div>
@@ -75,4 +74,4 @@ const movie = () => {
     )
 }
 
-export default movie
+export default MovieApp

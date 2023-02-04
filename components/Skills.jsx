@@ -58,6 +58,21 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
+                                    src='/../public/assets/skills/tailwind.png'
+                                    width={64}
+                                    height={64}
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h3>Tailwind</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image
                                     src='/../public/assets/skills/react.png'
                                     width={64}
                                     height={64}
@@ -73,14 +88,14 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/tailwind.png'
+                                    src='/../public/assets/skills/nextjs.png'
                                     width={64}
                                     height={64}
                                     alt='/'
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Tailwind</h3>
+                                <h3>Next.js</h3>
                             </div>
                         </div>
                     </div>
@@ -103,14 +118,14 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/aws.png'
+                                    src='/../public/assets/skills/csharp.png'
                                     width={64}
                                     height={64}
                                     alt='/'
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>AWS</h3>
+                                <h3>C#</h3>
                             </div>
                         </div>
                     </div>
@@ -129,48 +144,18 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image
-                                    src='/../public/assets/skills/csharp.png'
-                                    width={64}
-                                    height={64}
-                                    alt='/'
-                                />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>C#</h3>
-                            </div>
-                        </div>
-                    </div>
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 mix-blend-multiply'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/ssms.png'
-                                    width={64}
+                                    src='/../public/assets/skills/mssql.png'
+                                    width={100}
                                     height={64}
                                     alt='/'
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>SSMS</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image
-                                    src='/../public/assets/skills/nextjs.png'
-                                    width={64}
-                                    height={64}
-                                    alt='/'
-                                />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Nest.js</h3>
+                                <h3>MSSQL</h3>
                             </div>
                         </div>
                     </div>
@@ -208,7 +193,37 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/github1.png'
+                                    src='/../public/assets/skills/aws.png'
+                                    width={64}
+                                    height={64}
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h3>AWS</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image
+                                    src='/../public/assets/skills/azure.png'
+                                    width={100}
+                                    height={120}
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h3>Azure</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image
+                                    src='/../public/assets/skills/github.png'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -223,14 +238,14 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image
-                                    src='/../public/assets/skills/azure.png'
-                                    width={120}
-                                    height={100}
+                                    src='/../public/assets/skills/git.png'
+                                    width={64}
+                                    height={64}
                                     alt='/'
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Azure</h3>
+                                <h3>Git</h3>
                             </div>
                         </div>
                     </div>

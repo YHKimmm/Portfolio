@@ -22,9 +22,10 @@ const Navbar = () => {
 
     useEffect(() => {
         if (
-            router.asPath === "/applemarket" ||
-            router.asPath === "/movie" ||
-            router.asPath === "/workout"
+            router.asPath === "/AppleMarket" ||
+            router.asPath === "/MovieApp" ||
+            router.asPath === "/WorkoutBuddy" ||
+            router.asPath === "/AccountManagement"
         ) {
             setNavBg("transparent")
             setNavColor("#ecf0f3")
@@ -115,15 +116,15 @@ const Navbar = () => {
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-40'>
+                        <div className='pt-20'>
                             <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <Link href='https://www.linkedin.com/in/yeongheonkim/'>
+                                <Link href='https://www.linkedin.com/in/yeongheonkim/' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <FaLinkedinIn size={20} />
                                     </div>
                                 </Link>
-                                <Link href='https://github.com/YHKimmm'>
+                                <Link href='https://github.com/YHKimmm' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <FaGithub size={20} />
                                     </div>
@@ -131,7 +132,7 @@ const Navbar = () => {
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300' onClick={() => window.location.href = 'mailto:dudgjs1318@gmail.com'} >
                                     <AiOutlineMail size={20} />
                                 </div>
-                                <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2'>
+                                <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <BsFillPersonLinesFill size={20} />
                                     </div>

@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import appleMarketImg from '../public/assets/appleMarketItemPg.png'
-import workoutImg from '../public/assets/workoutBuddy.png'
-import movieAppImg from '../public/assets/movieApp.png'
+import appleMarketImg from '../public/assets/applemarket/appleMarketItemPg.png'
+import workoutImg from '../public/assets/workoutbuddy/workoutBuddy.png'
+import movieAppImg from '../public/assets/movieapp/movieApp.png'
+import accountManagementImg from '../public/assets/accountmanagement/accountManagement.png'
 
 const Projects = () => {
     return (
@@ -15,7 +16,7 @@ const Projects = () => {
                     <ProjectItem
                         title='Apple Market'
                         backgroundImg={appleMarketImg}
-                        projectUrl='/applemarket'
+                        projectUrl='/AppleMarket'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='2 weeks'
                         deployment='Heroku'
@@ -23,7 +24,7 @@ const Projects = () => {
                     <ProjectItem
                         title='Workout Buddy'
                         backgroundImg={workoutImg}
-                        projectUrl='/workout'
+                        projectUrl='/WorkoutBuddy'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='1.5 weeks'
                         deployment='AWS'
@@ -31,10 +32,18 @@ const Projects = () => {
                     <ProjectItem
                         title='Movie App'
                         backgroundImg={movieAppImg}
-                        projectUrl='/movie'
+                        projectUrl='/MovieApp'
                         stacks='React.js'
                         duration='1 week'
                         deployment='Github Pages'
+                    />
+                    <ProjectItem
+                        title='Account Management'
+                        backgroundImg={accountManagementImg}
+                        projectUrl='/AccountManagement'
+                        stacks='ASP.NET Core MVC, SQL Server'
+                        duration='2 weeks'
+                        deployment='Azure'
                     />
                 </div>
             </div>
