@@ -37,10 +37,10 @@ const Projects = () => {
                         deployment='Github Pages'
                     />
                     <ProjectItem
-                        title='Account Management'
+                        title='Account Manager'
                         backgroundImg={BankAccountManagementAppImg}
                         projectUrl='/AccountManagement'
-                        stacks='ASP.NET Core MVC, SQL Server'
+                        stacks='ASP.NET Core, Entity Framework, SQL Server'
                         duration='2 weeks'
                         deployment='Azure'
                     />
