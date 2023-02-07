@@ -1,9 +1,9 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import appleMarketImg from '../public/assets/applemarket/appleMarketItemPg.PNG'
-import workoutImg from '../public/assets/workoutbuddy/workoutBuddy.PNG'
-import movieAppImg from '../public/assets/movieapp/movieApp.PNG'
-import accountManagementImg from '../public/assets/accountmanagement/bank-account-management.PNG'
+import AppleMarketItemListImg from '../public/assets/projects/apple-market-item-list.jpg'
+import WorkOutBuddyImg from '../public/assets/projects/workout-buddy-app.jpg'
+import MovieAppImg from '../public/assets/projects/tmdb-movie-app.jpg'
+import BankAccountManagementAppImg from '../public/assets/projects/bank-account-management-app.jpg'
 
 const Projects = () => {
     return (
@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectItem
                         title='Apple Market'
-                        backgroundImg={appleMarketImg}
+                        backgroundImg={AppleMarketItemListImg}
                         projectUrl='/AppleMarket'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='2 weeks'
@@ -22,7 +22,7 @@ const Projects = () => {
                     />
                     <ProjectItem
                         title='Workout Buddy'
-                        backgroundImg={workoutImg}
+                        backgroundImg={WorkOutBuddyImg}
                         projectUrl='/WorkoutBuddy'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='1.5 weeks'
@@ -30,7 +30,7 @@ const Projects = () => {
                     />
                     <ProjectItem
                         title='Movie App'
-                        backgroundImg={movieAppImg}
+                        backgroundImg={MovieAppImg}
                         projectUrl='/MovieApp'
                         stacks='React.js'
                         duration='1 week'
@@ -38,7 +38,7 @@ const Projects = () => {
                     />
                     <ProjectItem
                         title='Account Management'
-                        backgroundImg={accountManagementImg}
+                        backgroundImg={BankAccountManagementAppImg}
                         projectUrl='/AccountManagement'
                         stacks='ASP.NET Core MVC, SQL Server'
                         duration='2 weeks'

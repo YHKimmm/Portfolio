@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import workoutBuddyImg from '../public/assets/workoutbuddy/workoutBuddy.PNG'
+import WorkOutBuddyImg from '../public/assets/projects/workout-buddy-app.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -9,7 +9,7 @@ const WorkoutBuddy = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1 object-cover' fill src={workoutBuddyImg} alt='/' />
+        <Image className='absolute z-1 object-cover' src={WorkOutBuddyImg} alt='/' fill />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Workout Buddy</h2>
           <h3>React JS / Node JS</h3>
