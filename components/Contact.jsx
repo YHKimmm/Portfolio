@@ -117,10 +117,10 @@ const Contact = () => {
                                             <FaGithub />
                                         </div>
                                     </Link>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = 'mailto:dudgjs1318@gmail.com'}>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = 'mailto:braydenkim98@gmail.com'}>
                                         <AiOutlineMail />
                                     </div>
-                                    <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2' target='_blank'>
+                                    <Link href='https://pdfhost.io/v/h5BzpDQn5_Resume' target='_blank'>
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <BsFillPersonLinesFill />
                                         </div>

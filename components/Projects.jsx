@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem'
 import appleMarketImg from '../public/assets/applemarket/appleMarketItemPg.png'
 import workoutImg from '../public/assets/workoutbuddy/workoutBuddy.png'
 import movieAppImg from '../public/assets/movieapp/movieApp.png'
-import accountManagementImg from '../public/assets/accountmanagement/accountManagement.png'
+import accountManagementImg from '../public/assets/accountmanagement/bank-account-management.png'
 
 const Projects = () => {
     return (
@@ -19,7 +19,7 @@ const Projects = () => {
                         projectUrl='/AppleMarket'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='2 weeks'
-                        deployment='Heroku'
+                        deployment='AWS'
                     />
                     <ProjectItem
                         title='Workout Buddy'
@@ -27,7 +27,7 @@ const Projects = () => {
                         projectUrl='/WorkoutBuddy'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='1.5 weeks'
-                        deployment='AWS'
+                        deployment='Railway'
                     />
                     <ProjectItem
                         title='Movie App'

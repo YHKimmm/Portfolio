@@ -9,7 +9,7 @@ const WorkoutBuddy = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1 object-cover' layout='fill' src={workoutBuddyImg} alt='/' />
+        <Image className='absolute z-1 object-cover' fill src={workoutBuddyImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Workout Buddy</h2>
           <h3>React JS / Node JS</h3>
@@ -33,8 +33,18 @@ const WorkoutBuddy = () => {
           <p className='mt-4'>
             The biggest challenge I faced while building this app was the authentication and security features. I had to learn how to implement JWT and a backend node.js middleware to ensure that user data was protected and only accessible to the user who created it.
           </p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+
+          <Link href='https://workout-buddy.up.railway.app/' target='_blank'>
+            <button className='px-8 py-2 mt-4 mr-8'>
+              Demo
+            </button>
+          </Link>
+
+          <Link href='https://github.com/YHKimmm/MERN-Workout' target='_blank'>
+            <button className='px-8 py-2 mt-4'>
+              Code
+            </button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

@@ -55,7 +55,7 @@ const Navbar = () => {
         <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/#home' scroll={false}>
-                    <Image src={img} alt='/' width='70' height='50' priority='high' />
+                    <Image src={img} alt='/' style={{ width: 70, height: 50 }} width='auto' height='auto' priority='high' />
                 </Link>
                 <div>
                     <ul style={{ color: `${navColor}` }} className='hidden md:flex'>
@@ -129,10 +129,10 @@ const Navbar = () => {
                                         <FaGithub size={20} />
                                     </div>
                                 </Link>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300' onClick={() => window.location.href = 'mailto:dudgjs1318@gmail.com'} >
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300' onClick={() => window.location.href = 'mailto:braydenkim98@gmail.com'} >
                                     <AiOutlineMail size={20} />
                                 </div>
-                                <Link href='https://pdfhost.io/v/V08iornVS_ResumeYeongHeonBraydenKim_2' target='_blank'>
+                                <Link href='https://pdfhost.io/v/h5BzpDQn5_Resume' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <BsFillPersonLinesFill size={20} />
                                     </div>
