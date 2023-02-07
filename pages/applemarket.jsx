@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import appleMarketImg from '../public/assets/applemarket/appleMarketHomePg.png'
+import appleMarketImg from '../public/assets/applemarket/appleMarketHomePg.PNG'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 

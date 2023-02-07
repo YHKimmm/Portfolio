@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import movieImg from '../public/assets/movieapp/movieApp.png'
+import movieImg from '../public/assets/movieapp/movieApp.PNG'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 

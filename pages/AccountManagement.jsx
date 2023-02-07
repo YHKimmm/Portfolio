@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { RiRadioButtonFill } from 'react-icons/ri'
-import accountManagementImg from '../public/assets/accountmanagement/bank-account-management.png'
+import accountManagementImg from '../public/assets/accountmanagement/bank-account-management.PNG'
 
 const AccountManagement = () => {
     return (

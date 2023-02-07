@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import workoutBuddyImg from '../public/assets/workoutbuddy/workoutBuddy.png'
+import workoutBuddyImg from '../public/assets/workoutbuddy/workoutBuddy.PNG'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
