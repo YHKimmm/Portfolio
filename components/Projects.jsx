@@ -1,17 +1,16 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import appleMarketImg from '../public/assets/applemarket/appleMarketItemPg.png'
-import workoutImg from '../public/assets/workoutbuddy/workoutBuddy.png'
-import movieAppImg from '../public/assets/movieapp/movieApp.png'
-import accountManagementImg from '../public/assets/accountmanagement/bank-account-management.png'
+import appleMarketImg from '../public/assets/applemarket/appleMarketItemPg.PNG'
+import workoutImg from '../public/assets/workoutbuddy/workoutBuddy.PNG'
+import movieAppImg from '../public/assets/movieapp/movieApp.PNG'
+import accountManagementImg from '../public/assets/accountmanagement/bank-account-management.PNG'
 
 const Projects = () => {
     return (
         <div id='projects' className='w-full'>
             <div className='max-w-[1240px] mx-auto px-2 py-16'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
-                <h2>What I've Built</h2>
+                <h2>What I&apos;ve Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectItem
                         title='Apple Market'
