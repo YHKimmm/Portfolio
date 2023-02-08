@@ -66,7 +66,7 @@ const WorkoutBuddy = () => {
                 <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> JWT</p>
               </div>
               <div>
-                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' /> CSS Module</p>
+                <p className='text-gray-600 py-2 flex items-center md:pb-7'><RiRadioButtonFill className='pr-1' />Pure CSS</p>
               </div>
             </div>
           </div>
