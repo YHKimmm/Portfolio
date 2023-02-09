@@ -32,7 +32,7 @@ const Projects = () => {
                         title='Movie App'
                         backgroundImg={MovieAppImg}
                         projectUrl='/MovieApp'
-                        stacks='React.js'
+                        stacks='React.js, Redux'
                         duration='1 week'
                         deployment='Github Pages'
                     />
