@@ -22,8 +22,10 @@ const AccountManagement = () => {
                     <div className='col-span-4'>
                         <h2>Overview</h2>
                         <p className='mt-4'>
-                            This Bank Account Management app is a ASP.NET Core MVC project. It is a comprehensive solution for managing bank accounts. It allows users to create an account with a choice of different bank account types like savings, chequing, RESP, etc.<br /> The application also allows them to edit, delete, and view their bank accounts with the option to sort, search account type, and paginate the list. The database is managed using Microsoft SQL Server, and the application uses sessions to track the client's ID and name. This CRUD-based application offers robust and scalable functionality for managing bank accounts.<br />
-                            I also implemented the reCAPTCHA to prevent creating accounts from bots.
+                            This Bank Account Management app is a ASP.NET Core MVC project. It is a comprehensive solution for managing bank accounts. It allows users to create an account with a choice of different bank account types like savings, chequing, RESP, etc.<br /> The application also allows them to edit, delete, and view their bank accounts with the option to sort, search account type, and paginate the list. The database is managed using Microsoft SQL Server, and the application uses sessions to track the client's ID and name. This CRUD-based application offers robust and scalable functionality for managing bank accounts.
+                        </p>
+                        <p className='mt-4'>
+                            I have added Sendgrid to the user registration process to send a confirmation email. Additionally, I have implemented reCAPTCHA to prevent bot-generated accounts.
                         </p>
                         <p className='mt-4'>
                             This project was built using ASP.NET Core MVC, C#, and Microsoft SQL Server, and it is deployed on Azure.
@@ -67,6 +69,11 @@ const AccountManagement = () => {
                                 <div>
                                     <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' />
                                         Razor Pages
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className='text-gray-600 py-2 flex items-center md:pb-8'><RiRadioButtonFill className='pr-1' />
+                                        SendGrid
                                     </p>
                                 </div>
                                 <div>
