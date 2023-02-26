@@ -25,8 +25,8 @@ const Projects = () => {
                         title='Expense Tracker'
                         backgroundImg={ExpenseTrackerStatisticsImg}
                         projectUrl='/ExpenseTracker'
-                        stacks='Redux.js(react), ASP.NET Core Web API,MSSQL'
-                        duration='2 week'
+                        stacks='Redux.js(React), ASP.NET Core Web API, MSSQL'
+                        duration='2 weeks'
                         deployment='Azure'
                     />
                     <ProjectItem
