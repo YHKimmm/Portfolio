@@ -4,6 +4,7 @@ import AppleMarketItemListImg from '../public/assets/projects/apple-market-item-
 import WorkOutBuddyImg from '../public/assets/projects/workout-buddy-app.jpg'
 import MovieAppImg from '../public/assets/projects/tmdb-movie-app.jpg'
 import BankAccountManagementAppImg from '../public/assets/projects/bank-account-management-app.jpg'
+import ExpenseTrackerStatisticsImg from '../public/assets/projects/expense-tracker-statistics.jpg'
 
 const Projects = () => {
     return (
@@ -21,12 +22,12 @@ const Projects = () => {
                         deployment='AWS'
                     />
                     <ProjectItem
-                        title='Workout Buddy'
-                        backgroundImg={WorkOutBuddyImg}
-                        projectUrl='/WorkoutBuddy'
-                        stacks='React.js, Node.js, Express, MongoDB'
-                        duration='1.5 weeks'
-                        deployment='Railway'
+                        title='Expense Tracker'
+                        backgroundImg={ExpenseTrackerStatisticsImg}
+                        projectUrl='/ExpenseTracker'
+                        stacks='Redux.js(react), ASP.NET Core Web API,MSSQL'
+                        duration='2 week'
+                        deployment='Azure'
                     />
                     <ProjectItem
                         title='Movie App'
@@ -40,9 +41,17 @@ const Projects = () => {
                         title='Account Manager'
                         backgroundImg={BankAccountManagementAppImg}
                         projectUrl='/AccountManagement'
-                        stacks='ASP.NET Core, Entity Framework, SQL Server'
+                        stacks='ASP.NET Core, Entity Framework, MSSQL'
                         duration='2 weeks'
                         deployment='Azure'
+                    />
+                    <ProjectItem
+                        title='Workout Buddy'
+                        backgroundImg={WorkOutBuddyImg}
+                        projectUrl='/WorkoutBuddy'
+                        stacks='React.js, Node.js, Express, MongoDB'
+                        duration='1.5 weeks'
+                        deployment='Railway'
                     />
                 </div>
             </div>
