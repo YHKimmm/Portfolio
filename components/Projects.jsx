@@ -5,6 +5,8 @@ import WorkOutBuddyImg from '../public/assets/projects/workout-buddy-app.jpg'
 import MovieAppImg from '../public/assets/projects/tmdb-movie-app.jpg'
 import BankAccountManagementAppImg from '../public/assets/projects/bank-account-management-app.jpg'
 import ExpenseTrackerStatisticsImg from '../public/assets/projects/expense-tracker-statistics.jpg'
+import FootballManagerImg from '../public/assets/projects/football-manager.png'
+import TechQuestImg from '../public/assets/projects/tech-quest.png'
 
 const Projects = () => {
     return (
@@ -14,12 +16,28 @@ const Projects = () => {
                 <h2>What I&apos;ve Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectItem
+                        title='Football Manager'
+                        backgroundImg={FootballManagerImg}
+                        projectUrl='/FootballManager'
+                        stacks='React.js, AWS, CocroachDB'
+                        duration='3 weeks'
+                        deployment='AWS Amplify'
+                    />
+                    <ProjectItem
                         title='Apple Market'
                         backgroundImg={AppleMarketItemListImg}
                         projectUrl='/AppleMarket'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='2 weeks'
                         deployment='AWS'
+                    />
+                    <ProjectItem
+                        title='Tech Quest'
+                        backgroundImg={TechQuestImg}
+                        projectUrl='/TechQuest'
+                        stacks='Next.js, Typescript, Open AI'
+                        duration='1 day'
+                        deployment='Vercel'
                     />
                     <ProjectItem
                         title='Expense Tracker'
@@ -50,7 +68,7 @@ const Projects = () => {
                         backgroundImg={WorkOutBuddyImg}
                         projectUrl='/WorkoutBuddy'
                         stacks='React.js, Node.js, Express, MongoDB'
-                        duration='1.5 weeks'
+                        duration='1 week'
                         deployment='Railway'
                     />
                 </div>
