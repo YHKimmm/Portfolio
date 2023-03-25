@@ -6,31 +6,22 @@ import Link from 'next/link'
 
 const About = () => {
     return (
-        <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+        <div id='about' className='w-full md:h-screen p-2 flex items-center'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I Am</h2>
-                    <p className='py-2 text-gray-600'>I am not your normal developer</p>
+                    <p className='py-2 text-gray-600'>I am not your ordinary programmer</p>
                     <p className='py-2 text-gray-600'>
-                        I specialize in building mobile responsive front-end UI applications
-                        that connect with API's and other backend technologies such as ASP.NET and Node.js. I'm
-                        passionate about learning new technologies and understand there is
-                        more than one way to accomplish a task. Though I am most proficient
-                        in building full-stack applications using HTML, CSS, Javascript, and
-                        React, Node.js or ASP.NET I am a quick learner and can pick up new tech stacks as
-                        needed. I believe that being a great developer is not using one
-                        specific language, but choosing the best tool for the job.
+                        I have a particular expertise in constructing front-end user interface applications that are mobile-responsive and capable of communicating with APIs and back-end technologies like ASP.NET and Node.js. I am enthusiastic about acquiring new knowledge and recognize that there can be multiple solutions to a problem.
                     </p>
                     <p className='py-2 text-gray-600'>
-                        With a passion for web development and coding, I embarked on my journey in 2022,
-                        utilizing my skills to create websites with  having strong technical skills in HTML, CSS, JavaScript, React, Next.js, ASP.NET, C#, SQL, and Node.js.
-                        Experienced in building modern and responsive websites, single-page applications (SPAs), and back-end applications, with a focus on delivering high-quality results and a seamless user experience.
-                        Passionate about continuous learning and growth, with excellent problem-solving skills and attention to detail. A strong communicator and team player,
-                        who is eager to bring his skills and enthusiasm to a dynamic organization.
+                        In 2022, I began my web development and coding journey using various technologies such as HTML, CSS, JavaScript, C#, React.js, Next.js, Node.js, ASP.NET (MVC & Web API), MSSQL, PostgreSQL, MySQL, and MongoDB to create websites. I excel in creating modern and responsive websites, single-page applications (SPAs), and back-end applications, prioritizing seamless user experience and high-quality results. With a keenness for continuous learning and growth, strong problem-solving abilities, and attention to detail, I thrive as a communicator and team player. I'm eager to bring my skills and enthusiasm to a dynamic organization.                    </p>
+                    <p className='py-2 text-gray-600'>
+                        I have hands-on experience working with various cloud platforms, including AWS, Azure, and other similar services. Additionally, I have successfully deployed web applications on multiple platforms like AWS Amplify, AWS EC2 Instance, Azure, Vercel, Railway, and GitHub Pages as part of my project experience.
                     </p>
                     <Link href='/#projects' scroll={false}>
-                        <p className='py-2 text-gray-600 underline cursor-pointer'>
+                        <p className='py-2 text-gray-600 underline cursor-pointer tracking-wider font-semibold'>
                             Check out some of my latest projects
                         </p>
                     </Link>

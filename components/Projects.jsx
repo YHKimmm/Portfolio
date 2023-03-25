@@ -10,7 +10,7 @@ import TechQuestImg from '../public/assets/projects/tech-quest.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className='w-full'>
+        <div id='projects' className='w-full md:py-16'>
             <div className='max-w-[1240px] mx-auto px-2 py-16'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
                 <h2>What I&apos;ve Built</h2>
@@ -29,7 +29,7 @@ const Projects = () => {
                         projectUrl='/AppleMarket'
                         stacks='React.js, Node.js, Express, MongoDB'
                         duration='2 weeks'
-                        deployment='AWS'
+                        deployment='AWS EC2 Instance'
                     />
                     <ProjectItem
                         title='Tech Quest'
