@@ -38,7 +38,7 @@ const Main = () => {
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = 'mailto:braydenkim98@gmail.com'}>
                             <AiOutlineMail />
                         </div>
-                        <Link href='https://pdfhost.io/v/3Cde2Ee9X_Resume' target='_blank'>
+                        <Link href='https://pdfhost.io/v/d5j2ltT3s_Resume' target='_blank'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                 <BsFillPersonLinesFill />
                             </div>
