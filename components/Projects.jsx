@@ -7,6 +7,7 @@ import BankAccountManagementAppImg from '../public/assets/projects/bank-account-
 import ExpenseTrackerStatisticsImg from '../public/assets/projects/expense-tracker-statistics.jpg'
 import FootballManagerImg from '../public/assets/projects/football-manager.png'
 import TechQuestImg from '../public/assets/projects/tech-quest.png'
+import EcoMuteImg from '../public/assets/projects/eco-mute.png'
 
 const Projects = () => {
     return (
@@ -15,6 +16,14 @@ const Projects = () => {
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
                 <h2>What I&apos;ve Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
+                    <ProjectItem
+                        title='Eco Mute'
+                        backgroundImg={EcoMuteImg}
+                        projectUrl='/EcoMute'
+                        stacks='Next.js, Typescript, Google Maps API'
+                        duration='1 day'
+                        deployment='Vercel'
+                    />
                     <ProjectItem
                         title='Football Manager'
                         backgroundImg={FootballManagerImg}

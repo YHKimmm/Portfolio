@@ -15,6 +15,11 @@ export const skills = [
         image: '/assets/skills/javascript.png'
     },
     {
+        name: 'TypeScript',
+        category: 'language',
+        image: '/assets/skills/typescript.png'
+    },
+    {
         name: 'C#',
         category: 'language',
         image: '/assets/skills/csharp.png'
