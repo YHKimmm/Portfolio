@@ -28,7 +28,9 @@ const Navbar = () => {
             router.asPath === "/AccountManagement" ||
             router.asPath === "/FootballManager" ||
             router.asPath === "/ExpenseTracker" ||
-            router.asPath === "/TechQuest"
+            router.asPath === "/TechQuest" ||
+            router.asPath === "/EcoMute" ||
+            router.asPath === "/PetSitter"
         ) {
             setNavBg("transparent")
             setNavColor("#ecf0f3")

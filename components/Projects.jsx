@@ -8,6 +8,7 @@ import ExpenseTrackerStatisticsImg from '../public/assets/projects/expense-track
 import FootballManagerImg from '../public/assets/projects/football-manager.png'
 import TechQuestImg from '../public/assets/projects/tech-quest.png'
 import EcoMuteImg from '../public/assets/projects/eco-mute.png'
+import PetSiiterImg from '../public/assets/projects/pet-sitter-home.png'
 
 const Projects = () => {
     return (
@@ -16,6 +17,14 @@ const Projects = () => {
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
                 <h2>What I&apos;ve Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
+                    <ProjectItem
+                        title='Pet Sitter'
+                        backgroundImg={PetSiiterImg}
+                        projectUrl='/PetSitter'
+                        stacks='ASP.NET Core MVC, Entity Framework, MSSQL'
+                        duration='4 months'
+                        deployment='Azure'
+                    />
                     <ProjectItem
                         title='Eco Mute'
                         backgroundImg={EcoMuteImg}
@@ -68,7 +77,7 @@ const Projects = () => {
                         title='Account Manager'
                         backgroundImg={BankAccountManagementAppImg}
                         projectUrl='/AccountManagement'
-                        stacks='ASP.NET Core, Entity Framework, MSSQL'
+                        stacks='ASP.NET Core MVC, Entity Framework, MSSQL'
                         duration='2 weeks'
                         deployment='Azure'
                     />

@@ -26,9 +26,9 @@ const EcoMute = () => {
                     <p className='pt-4'>
                         The application uses Google Maps API to calculate estimated carbon dioxide emissions for daily commutes based on various factors, including distance, transportation mode, and fuel type. Users can enter their starting point and destination, choose their mode of transportation, and view the emissions data to better understand their carbon footprint.
                     </p>
-                    <h3 className='pt-4 text-lg'>Why I built it</h3>
+                    <h3 className='pt-4 text-lg'>Why We built it</h3>
                     <p className='pt-4'>
-                        I built this application to help people reduce their carbon footprint and become more environmentally conscious.
+                        We built this application to help people reduce their carbon footprint and become more environmentally conscious.
                         I believe that by providing people with the tools to make more informed decisions, we can collectively make a positive impact on the environment.
                     </p>
                     <h3 className='pt-4 text-lg'>What I learned</h3>

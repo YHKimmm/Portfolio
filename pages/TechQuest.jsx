@@ -26,9 +26,9 @@ const TechQuest = () => {
                         The goal was to develop a platform that could generate interview questions through the use of Open AI, with different question types and programming languages.
                         Furthermore, the aim was to make the web application accessible to a broad range of web developers. As a result, Tech Quest was developed and designed, which generates customizable interview prompts using Open AI&apos;s GPT-3 API.
                     </p>
-                    <h3 className='pt-4 text-lg'>Why I built it</h3>
+                    <h3 className='pt-4 text-lg'>Why We built it</h3>
                     <p className='pt-4'>
-                        I built this application to help people who are preparing for technical interviews and myself as well. I wanted to create a web application that can generate interview questions using Open AI
+                        We built this application to help people who are preparing for technical interviews and myself as well. I wanted to create a web application that can generate interview questions using Open AI
                         with various question types, programming languages, and various types of developers.
                     </p>
                     <h3 className='pt-4 text-lg'>What I learned</h3>

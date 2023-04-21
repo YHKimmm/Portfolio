@@ -1,12 +1,12 @@
 export const skills = [
     {
         name: 'HTML',
-        category: 'language',
+        category: '',
         image: '/assets/skills/html.png'
     },
     {
         name: 'CSS',
-        category: 'language',
+        category: '',
         image: '/assets/skills/css.png'
     },
     {
